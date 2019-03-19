@@ -1,6 +1,6 @@
 def prime(int)
   if int == 2
-    puts true
+    return true
   else
     array = Array(2...int)
 
