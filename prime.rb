@@ -1,5 +1,5 @@
 def prime(int)
-  array = [1...int]
+  array = Array(1...int)
   puts array
 end
 
