@@ -1,14 +1,17 @@
 def prime(int)
-  array = Array(2...int)
+  if int == 2
+    return true
+  else
+    array = Array(2...int)
 
-  array.each do |el|
-    if int == 2
-      return true
-    elsif int % el == 0
-      return false
-    else
-      next
+    array.each do |el|
+      if int % el == 0
+        return false
+      else
+        next
+      end
     end
+    return true
   end
-  return true
+  
 end
