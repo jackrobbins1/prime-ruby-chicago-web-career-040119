@@ -9,3 +9,6 @@ def prime(int)
   end
   true
 end
+
+
+prime(4)
