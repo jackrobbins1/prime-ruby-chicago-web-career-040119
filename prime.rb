@@ -1,4 +1,4 @@
-def prime(int)
+def prime?(int)
   if int == 2
     return true
   else
