@@ -1,5 +1,7 @@
 def prime?(int)
-  if int == 2
+  if int < 1
+    return false
+  elsif int == 2
     return true
   else
     array = Array(2...int)
