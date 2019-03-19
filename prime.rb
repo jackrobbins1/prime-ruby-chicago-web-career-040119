@@ -7,5 +7,5 @@ def prime(int)
     else
       next
   end
-
+  true
 end
