@@ -3,12 +3,12 @@ def prime(int)
 
   array.each do |el|
     if int % el == 0
-      return false
+      puts false
     else
       next
     end
   end
-  true
+  puts true
 end
 
 
