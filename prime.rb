@@ -5,7 +5,7 @@ def prime(int)
     if int % el == 0
       return false
     else
-      continue
+      next
   end
 
 end
