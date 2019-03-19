@@ -1,6 +1,11 @@
 def prime(int)
   array = Array(1...int)
-  puts array
-end
 
-prime(9)
+  array.each do |el|
+    if int % el == 0
+      return false
+    else
+      continue
+  end
+
+end
