@@ -12,4 +12,3 @@ def prime(int)
 end
 
 
-prime(4)
